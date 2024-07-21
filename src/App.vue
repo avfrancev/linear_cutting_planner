@@ -115,8 +115,8 @@ dialog(id="my_modal_2" class="modal ")
               :style="{width: p ? (p/(100)*100 + '%') : 'auto'}"
               ) a aaaa
           pre.content-center.text-center.flex-1.px-2(v-if="(m.length || 6000) - P.sum") {{(m.length || 6000) - P.sum}}
-  .flex.justify-center.my-12(v-if="stockList.length > 0")
-    button.btn.w-48.my-42(@click="addMaterial()") Add material
+  .flex.justify-center.items-center.w-full(class="h-[120px]" v-if="stockList.length > 0")
+    button.btn.w-48(@click="addMaterial()") Add material
   //- .text-xs
     .flex
       p(v-for="i in input1")
