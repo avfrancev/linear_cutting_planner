@@ -7,6 +7,14 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    'IMdi:add': typeof import('~icons/mdi/add')['default']
+    'IMdi:circularSaw': typeof import('~icons/mdi/circular-saw')['default']
+    'IMdi:import': typeof import('~icons/mdi/import')['default']
+    'IMdi:sawBlade': typeof import('~icons/mdi/saw-blade')['default']
+    'IMdi:scissorsCutting': typeof import('~icons/mdi/scissors-cutting')['default']
+    'IMdi:trash': typeof import('~icons/mdi/trash')['default']
+    'IMdi:trashOutline': typeof import('~icons/mdi/trash-outline')['default']
+    'IStreamline:cutSolid': typeof import('~icons/streamline/cut-solid')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

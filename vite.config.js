@@ -32,6 +32,9 @@ export default defineConfig({
       }
     },
   },
+  test:{
+    globals:true,
+  },
   plugins: [
     arraybuffer(),
     compression(),
